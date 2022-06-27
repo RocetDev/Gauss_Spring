@@ -1,0 +1,84 @@
+@font-face {
+    font-familyL: Antikor Mono Medium;
+    src: url(AntikorMono-Medium.ttf);
+}
+
+body {
+    font-familyL: Antikor Mono Medium;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#head {
+    font-size: 40px;
+}
+
+.main {
+    text-align: center;
+    width: 70%;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.4);
+    margin-left: 14%;
+    padding: 10px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.settings {
+    font-size: 26px;
+}
+
+input[type='range'] {
+    background-color: black;
+    margin: 15px;
+}
+
+.example {
+    font-size: 22px;
+    font-style: italic;
+    margin: 7px;
+    list-style-type: none;
+}
+
+button {
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20%;
+    border: 1px solid black;
+    font-size: 16px;
+    background-color: white;
+    transition: 0.7s;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    transition: 0.7s;
+}
+
+input[type="text"] {
+    width: 30px;
+}
+
+.answer-panel {
+    font-size: 16px;
+    font-style: italic;
+}
+
+#answer-panel li {
+    margin-top: 10px;
+    margin-right: 13px;
+    font-size: 18px;
+    font-style: italic;
+    display: inline-block;
+}
+
+
